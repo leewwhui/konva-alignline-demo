@@ -1,6 +1,6 @@
 import Konva from "konva";
-import { CustomTransformer } from "./transformer";
 import { TransformerConfig } from "konva/lib/shapes/Transformer";
+import { CustomTransformer } from "./transformer";
 
 export class TransformController {
   private _transformer: CustomTransformer;

@@ -135,7 +135,7 @@ tr.on("transformstart", () => {
   tr.anchorDragBoundFunc((_, newAbsPos) => {
     let absX = newAbsPos.x;
     let absY = newAbsPos.y;
-
+    
     if (tr.rotation() !== 0) return newAbsPos;
     if (detectSorb) {
       const clientRect = tr.getClientRect();
